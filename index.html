@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="box">
+       
+    <form  id="form">
+        
+        <input type="number" id="num1" placeholder="Enter first number" required>
+         <input type="number" id="num2" placeholder="Enter second number" required >
+         <button type="button" id="bt1" onclick="calculate('add')"> + addition</button>
+         <button type="button" id ="bt2" onclick="calculate('sub')"> - Subtraction</button>
+         <button type="button" id="bt3"  onclick="calculate('div')"> / Division</button>
+         <button type="button" id="bt4"  onclick="calculate('multiple')"> X Multiplication</button>
+
+    </form>
+   
+    <div class="output" id="result">
+    </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
